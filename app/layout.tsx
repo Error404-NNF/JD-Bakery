@@ -22,7 +22,10 @@ export const metadata: Metadata = {
   description:
     "Premium bakery offering wedding cakes, birthday cakes, rock buns, chelsea buns, biscuits, red cakes, muffins, dikuku scones and more. Open Monday to Sunday, 06H00-18H00.",
   keywords: "bakery, cakes, wedding cakes, birthday cakes, confectionery, baked goods",
-    generator: 'v0.app'
+    generator: 'v0.app',
+      
+  Verification: {
+    google: "aKZGRxV4lnxT5Is8n40TMK8enJNHwnXYWsy7c-HuR64"
 }
 
 export default function RootLayout({
