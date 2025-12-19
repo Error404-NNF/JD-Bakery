@@ -1,6 +1,6 @@
 export async function GET() {
   const baseUrl = 'https://jd-bakery.vercel.app';
-  const today = new Date().toISOString().split('T');
+  const today = new Date().toISOString().slice(0, 19).replace('T', ' ');
 
   const paths = ['','about', 'contact']; // Add your actual routes here
 
