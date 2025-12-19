@@ -1,11 +1,11 @@
 export async function GET() {
   const baseUrl = 'https://jd-bakery.vercel.app';
   const today = new Date().toISOString().split('T');
-  
-  const paths = ['', 'about', 'contact']; // Add your actual routes here
-  
+
+  const paths = ['','about', 'contact']; // Add your actual routes here
+
   const urls = paths.map((p) => {
-    const loc = `${baseUrl}${p ? `/${p}` : ''}`.replace(/\/+$/, '');
+    const loc = `${baseUrl}${p ? `/${p}` : ''}`;
     return `
   <url>
     <loc>${loc}</loc>
