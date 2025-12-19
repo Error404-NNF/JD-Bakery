@@ -14,6 +14,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         {/* Google site verification - raw meta tag added for extra compatibility */}
         <meta name="google-site-verification" content="aKZGRxV4lnxT5Is8n40TMK8enJNHwnXYWsy7c-HuR64" />
+        {/* Allow indexing by search engines */}
+        <meta name="robots" content="index, follow" />
       </head>
       <body className={inter.className}>
         {children}
