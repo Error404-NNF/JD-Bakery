@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     generator: 'v0.app',
       
   Verification: {
-    google:"aKZGRxV4lnxT5Is8n40TMK8enJNHwnXYWsy7c-HuR64"
+    google:<meta name="google-site-verification" content="aKZGRxV4lnxT5Is8n40TMK8enJNHwnXYWsy7c-HuR64" />
   },
 }
 
