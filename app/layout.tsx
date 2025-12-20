@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: "JD Bakery | Fresh Pastries & Custom Cakes", // This replaces the URL in search
+  title: "JD's Confectioners Bakery", // This replaces the URL in search
   description: "Delicious artisan breads and custom baked goods from JD Bakery.",
   verification: {
     google: 'aKZGRxV41nxT5Is8n48TMK8enJNHwnXYWsy7c-HuR64',
