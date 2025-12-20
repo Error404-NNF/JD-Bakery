@@ -4,29 +4,37 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: "JD's Confectioners Bakery", // This replaces the URL in search
-  description: "Delicious artisan breads and custom baked goods from JD Bakery.",
+  // This is what people see in big blue text on Google
+  title: "JD's Confectioners", 
+  description: "Discover the finest artisan breads, wedding cakes, and custom treats at JD's Confectioners Bakery.",
   verification: {
     google: 'aKZGRxV41nxT5Is8n48TMK8enJNHwnXYWsy7c-HuR64',
   },
   openGraph: {
-    siteName: 'JD Bakery', // This tells Google your brand name
+    // This replaces the "Vercel" text with your brand name
+    siteName: "JD's Confectioners", 
+    url: 'https://jd-bakery.vercel.app/',
+    type: 'website',
   },
 }
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  // This tells Google's search engine exactly who you are
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    'name': 'JD Bakery',
+    'name': "JD's Confectioners",
     'url': 'https://jd-bakery.vercel.app/',
   }
 
   return (
     <html lang="en">
       <head>
-        {/* Your verification meta tags are already handled by the metadata object above, 
-            but keeping them here doesn't hurt anything. */}
+        {/* Verification and Robots tags are handled by metadata, but keeping them here for safety */}
         <meta name="google-site-verification" content="aKZGRxV41nxT5Is8n48TMK8enJNHwnXYWsy7c-HuR64" />
         <meta name="robots" content="index, follow" />
       </head>
