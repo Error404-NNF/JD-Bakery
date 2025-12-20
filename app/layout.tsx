@@ -3,26 +3,18 @@ import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
-// This section tells Google your Brand Name and Keywords
 export const metadata = {
   title: "JD Bakery | Fresh Pastries & Custom Cakes",
-  description: "Experience the best artisan breads, fresh pastries, and custom baked goods at JD Bakery.",
+  description: "Delicious artisan breads and custom baked goods from JD Bakery.",
   verification: {
     google: 'aKZGRxV41nxT5Is8n48TMK8enJNHwnXYWsy7c-HuR64',
   },
   openGraph: {
     siteName: 'JD Bakery',
-    url: 'https://jd-bakery.vercel.app/',
-    type: 'website',
   },
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
-  // This JSON-LD helps Google show "JD Bakery" instead of the URL link
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
@@ -33,8 +25,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* The metadata export above handles your verification tags automatically, 
-            but keeping your manual meta tags here as a backup is safe. */}
+        {/* Your verification meta tags are already handled by the metadata object above, 
+            but keeping them here doesn't hurt anything. */}
         <meta name="google-site-verification" content="aKZGRxV41nxT5Is8n48TMK8enJNHwnXYWsy7c-HuR64" />
         <meta name="robots" content="index, follow" />
       </head>
