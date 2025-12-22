@@ -16,9 +16,9 @@ const reviews = [
   {
     name: "VUSUMUZI KOKELA",
     initial: "V",
-    rating: 3,
+    rating: 4,
     time: "a year ago",
-    review: "Food: 3 | Service: 3 | Atmosphere: 3",
+    review: "Food: 9/10 | Service: 9/10 | Atmosphere: 8/10",
     isLocalGuide: true,
     color: "bg-emerald-700",
   },
