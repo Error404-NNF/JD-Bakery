@@ -96,7 +96,7 @@ export function Testimonials() {
         <div className="text-center">
           <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
             <a
-              href="https://maps.app.goo.gl/ExKddyTNvTKEjSZB9"
+              href="https://www.google.com/maps/place/JD+BAKERY/@-25.4707462,28.1194901,21z/data=!4m8!3m7!1s0x1ebfc70b87913b89:0x3ddb8eb8df63eca0!8m2!3d-25.4707177!4d28.1194738!9m1!1b1!16s%2Fg%2F11q2x_t5l_?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2"
