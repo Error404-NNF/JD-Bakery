@@ -265,7 +265,7 @@ export function Contact() {
                     type="email"
                     value={formData.email}
                     onChange={handleChange}
-                    placeholder="john@example.com"
+                    placeholder="Keabetswe@example.com"
                     className="border-2 focus:border-primary"
                   />
                 </div>
