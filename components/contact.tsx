@@ -233,7 +233,7 @@ export function Contact() {
                       name="name"
                       value={formData.name}
                       onChange={handleChange}
-                      placeholder="John Doe"
+                      placeholder="Keabetswe Malwa"
                       required
                       className="border-2 focus:border-primary"
                     />
