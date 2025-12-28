@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   // This is what people see in big blue text on Google
-  title: "JD's Confectioners", 
+  title: "JD Bakery", 
   description: "Discover the finest artisan breads, wedding cakes, and custom treats at JD's Confectioners Bakery.",
   verification: {
     google: 'aKZGRxV41nxT5Is8n48TMK8enJNHwnXYWsy7c-HuR64',
